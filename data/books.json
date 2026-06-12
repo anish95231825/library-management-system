@@ -1,0 +1,29 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name":"the hobbit",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 299,
+      "publiser":"anish kumar"
+    },
+    {
+      "id": 2,
+      "name":"theland before time",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 350,
+      "publiser":"aman kumar"
+
+    },
+    {
+      "id": 3,
+      "name":"hii whatsup",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 450,
+      "publiser":"aman sahu"
+    }
+  ]
+}

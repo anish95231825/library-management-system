@@ -1,0 +1,46 @@
+{
+    "user":[
+        {
+            "id":"1",
+            "name":"jhon",
+            "surname":"doe",
+            "email":"user@email.com",
+            "issuedbook":"1",
+            "issueDate":"04/01/2022",
+            "returnDate":"05/01/2022",
+            "subscriptionType":"premium",
+            "subscriptionDate":"04/01/2022"
+        },
+          {
+            "id":"2",
+            "name":"jane",
+            "surname":"doe",
+            "email":"user@email.com",
+            "issuedbook":"2",
+            "issueDate":"01/07/2021",
+            "returnDate":"01/10/2021",
+            "subscriptionType":"Basic",
+            "subscriptionDate":"03/01/2022"
+
+        },
+           {
+            "id":"3",
+            "name":"jhon",
+            "surname":"doe",
+            "email":"user@email.com",
+            "issuedbook":"3",
+            "issueDate":"04/01/2022",
+            "returnDate":"05/01/2022",
+            "subscriptionType":"Basic",
+            "subscriptionDate":"04/01/2022"
+        },
+           {
+            "id":"4",
+            "name":"jhon",
+            "surname":"doe",
+            "email":"user@email.com",
+            "subscriptionDate":"04/01/2022"
+        }
+         
+    ]
+}
