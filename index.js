@@ -1,4 +1,9 @@
 const express =require("express");
+//  const{users}=require("./data/users.json")
+
+// importing the routers
+const usersRouter = require("./routes/users");
+const booksRouter = require("./routes/books");
 
 const app = express();
 
@@ -11,16 +16,24 @@ app.get("/", (req, res)=>{
         message: "Home page:-)"
     })
 })
+
+app.use("/users",usersRouter);
+app.use("/books",booksRouter);
+
+
+
+
+
 // app.all('*', (req, res) => {
 //     res.status(404).json({
 //         message:"Not built yet"
 //     });
 // });
-app.use((req, res)=>{
-    res.status(404).json({
-        message: "Not found"
-    });
-});
+// app.use((req, res)=>{
+//     res.status(404).json({
+//         message: "Not found"
+//     });
+// });
 app.listen(PORT,()=>{
     console.log(`server is up an running on http://localhost:${PORT}`)
 })
