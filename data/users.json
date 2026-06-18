@@ -1,5 +1,5 @@
 {
-    "user":[
+    "users":[
         {
             "id":"1",
             "name":"jhon",
@@ -10,6 +10,7 @@
             "returnDate":"05/01/2022",
             "subscriptionType":"premium",
             "subscriptionDate":"04/01/2022"
+            
         },
           {
             "id":"2",
@@ -39,7 +40,8 @@
             "name":"jhon",
             "surname":"doe",
             "email":"user@email.com",
-            "subscriptionDate":"04/01/2022"
+            "subscriptionDate":"04/01/2022",
+            "subscriptionType":"premium"
         }
          
     ]
